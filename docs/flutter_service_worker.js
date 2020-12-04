@@ -17,7 +17,7 @@ const RESOURCES = {
 "assets/assets/ma-skv/gradient-path.png": "4ed0ba2b52d8e60b05384b44e7b57ad5",
 "assets/assets/ma-skv/langSkill.png": "f4af2ebc98e32dbf6519b9590b1b2712",
 "assets/assets/ma-skv/stars-bg.jpg": "12afa9dd76bf026d0cd47c2467471a3d",
-"assets/FontManifest.json": "6b6d62bb64d6a4fcea8ea9006f26dac8",
+"assets/FontManifest.json": "f1308f20d3c82fcfe4bb971e9aa36c6d",
 "assets/fonts/BebasNeue/BebasNeue-Regular.ttf": "21bb70b62317f276f2e97a919ff5bd8c",
 "assets/fonts/Buxton/buxton-sketch.ttf": "39bb198735c6eb2a9ee468cb33f5f7a7",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
@@ -66,7 +66,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "7e40ef7711e2ede403496d5bca876ab5",
 "/": "7e40ef7711e2ede403496d5bca876ab5",
-"main.dart.js": "d665d3e1cbaa15aae4c014d644ff72ca",
+"main.dart.js": "755947706d999dec8ce529fb7ebb366f",
 "manifest.json": "382ceefa56cd803f149dc25be3274a29",
 "version.json": "0313160163f2e6ef86e83f237cf0b044"
 };
