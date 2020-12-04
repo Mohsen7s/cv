@@ -1,28 +1,62 @@
-<!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
-  <title>Flutter UI Designs</title>
+  <title>Title</title>
+  <script defer src="index.dart.js" type="application/javascript"></script>
+
+  <style>
+    .loading {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+    
+    .loader {
+      border: 16px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 16px solid blue;
+      border-right: 16px solid green;
+      border-bottom: 16px solid red;
+      border-left: 16px solid pink;
+      width: 120px;
+      height: 120px;
+      -webkit-animation: spin 2s linear infinite;
+      animation: spin 2s linear infinite;
+    }
+    
+    @-webkit-keyframes spin {
+      0% {
+        -webkit-transform: rotate(0deg);
+      }
+      100% {
+        -webkit-transform: rotate(360deg);
+      }
+    }
+    
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
 </head>
+
 <body>
-  <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
-  <!-- <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-analytics.js"></script> -->
-  <script>
-    // Your web app's Firebase configuration
-    var firebaseConfig = {
-      apiKey: "AIzaSyAYQ0EZXBNVtoTNlkTQgUs7sOUYtdeTdGA",
-      authDomain: "flutter-ui-challenges-hgl.firebaseapp.com",
-      databaseURL: "https://flutter-ui-challenges-hgl.firebaseio.com",
-      projectId: "flutter-ui-challenges-hgl",
-      storageBucket: "flutter-ui-challenges-hgl.appspot.com",
-      messagingSenderId: "322047224635",
-      appId: "1:322047224635:web:16d105e8b9b35a62d2e51e",
-      measurementId: "G-HS61TMQ4DZ"
-    };
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
-    // firebase.analytics();
-  </script>
+  <div class="loading">
+    <div class="loader"></div>
+  </div>
+
   <script src="main.dart.js" type="application/javascript"></script>
 </body>
+
 </html>
